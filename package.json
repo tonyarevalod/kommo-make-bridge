@@ -1,1 +1,10 @@
-
+{
+  "name": "kommo-make-bridge",
+  "version": "1.0.0",
+  "description": "Backend to process Kommo events and trigger Make.",
+  "main": "api/index.js",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2"
+  }
+}
