@@ -1,0 +1,22 @@
+{
+  "widget": {
+    "name": "Make Trigger Widget",
+    "description": "Triggers Make webhook on lead status change",
+    "version": "1.0.0",
+    "locations": [],
+    "layout": {}
+  },
+  "hooks": {
+    "status_lead": [
+      {
+        "endpoint": "https://TU_URL_DE_VERCEL.vercel.app/",
+        "conditions": []
+      }
+    ]
+  },
+  "v1": {
+    "client_id": null,
+    "client_secret": null,
+    "redirect_uri": null
+  }
+}
